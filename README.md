@@ -25,3 +25,8 @@ Genetic variant annotation and functional effect prediction toolbox. It annotate
             
     5. source /etc/profile
         echo $JAVA_HOME
+
+## 2. Install snpEff
+    1. wget http://sourceforge.net/projects/snpeff/files/snpEff_latest_core.zip
+    
+    2. unzip snpEff_latest_core.zip
