@@ -1,7 +1,8 @@
 # snpEff
 Genetic variant annotation and functional effect prediction toolbox. It annotates and predicts the effects of genetic variants on genes and proteins (such as amino acid changes).
-[manual](https://pcingola.github.io/SnpEff/)
 
+[manual](https://pcingola.github.io/SnpEff/)
+[manual(kor)](https://korbillgates.tistory.com/61)
 
 ## Index
 1. Install Java
