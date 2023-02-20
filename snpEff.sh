@@ -6,7 +6,7 @@ java -jar snpEff.jar databases | grep [organism]
 java -jar snpEff.jar download -v [organism]
 java -Xmx4g -jar snpEff.jar -v [organism] input.vcf > output.ann.vcf
 
-# case 2 if your target organism is not exist in data base
+# case 2 if your target organism is not exist in data base    >>>>>> disabled
 cd ~/snpEff
 mkdir data/[organism]
 cd data/[organism]
