@@ -16,7 +16,7 @@ Genetic variant annotation and functional effect prediction toolbox. It annotate
     2. sudo apt-get install openjdk-8-jdk
 
 
-    3. which javac  or  realink -f /usr/bin/javac # javac path
+    3. which javac  or  readlink -f /usr/bin/javac # javac path
     
     4. sudo vi /etc/oprofile
         add export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
