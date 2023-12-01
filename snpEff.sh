@@ -6,6 +6,10 @@ java -jar snpEff.jar databases | grep [organism]
 java -jar snpEff.jar download -v [organism]
 java -Xmx4g -jar snpEff.jar -v [organism] input.vcf > output.ann.vcf
 
+##ex -rice (Oryza_sativa)
+java -jar snpEff.jar download -v Oryza_sativa
+java -Xmx8g -jar snpEff.jar -v Oryza_sativa input.vcf > output.ann.vcf
+
 # case 2 if your target organism is not exist in data base    >>>>>> disabled
 cd ~/snpEff
 mkdir data/[organism]
